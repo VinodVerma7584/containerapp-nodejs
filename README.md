@@ -52,3 +52,8 @@ EC2 Container Service provides orchestration for your containers. It automates t
    ```
    $ ./deploy.sh <region> <stack name>
    ```
+
+## Access Deployed Service
+http://<load-balancer DNS>:<port>/api/avengers
+http://<load-balancer DNS>:<port>/api/avengers/4
+http://<load-balancer DNS>:<port>/api/marvels
